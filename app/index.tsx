@@ -8,6 +8,7 @@ import Home from "@/components/Home";
 import Featured from "@/components/Featured";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Partners from "@/components/Partners";
+import Inside from "@/components/Inside";
 import FAQ from "@/components/FAQ";
 import Email from "@/components/Email";
 import Footer from "@/components/Footer";
@@ -26,10 +27,10 @@ const Index = () => {
         <Navratan/>
         <Jewellery/>
         <Partners />
+        <Inside /> 
         <FAQ/>
         <Email/>
         <Footer/>
-        {/* <Inside />  */}
       </ScrollView>
     </SafeAreaView>
   );
