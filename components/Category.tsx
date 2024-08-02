@@ -10,7 +10,7 @@ const CategorySection = () => {
           <ImageBackground
             className="category-container text-center  bg-no-repeat overflow-hidden py-2 px-2 relative rounded-lg h-[70px]"
             source={{ uri: 'https://i.ibb.co/nk8rmXm/gems.png' }}
-            style={{ width: '100%' }} // Adjust width and height as needed
+            style={{ width: '100%' }} 
           >
             <TouchableOpacity className="category-inner">
               <Text className="heading font-semibold text-[14px]">Navaratna</Text>
@@ -24,7 +24,7 @@ const CategorySection = () => {
           <ImageBackground
             className="category-container text-center  bg-no-repeat overflow-hidden py-2 px-2 relative rounded-lg h-[70px] bg-custom-gradient"
             source={{ uri: 'https://i.ibb.co/dkjfr0G/ring.png' }}
-            style={{ width: '100%' }} // Adjust width and height as needed
+            style={{ width: '100%' }} 
           >
             <TouchableOpacity className="category-inner">
               <Text className="heading font-semibold text-[14px]">Gemstone</Text>

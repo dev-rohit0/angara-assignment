@@ -28,7 +28,7 @@ const Featured = () => {
         horizontal
         showsHorizontalScrollIndicator={false}
         className={`flex-row flex space-x-4`}
-        snapToInterval={10} // Adjust snap interval based on image and spacing width
+        snapToInterval={10}
         snapToAlignment="start"
         decelerationRate="normal"
       >

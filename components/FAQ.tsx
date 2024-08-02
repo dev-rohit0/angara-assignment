@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text } from 'react-native';
-import Accordion from './Accordion'; // Update path if necessary
-
+import Accordion from './Accordion'; 
 const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 

@@ -27,7 +27,7 @@ const Index = () => {
         <Navratan/>
         <Jewellery/>
         <Partners />
-        <Inside /> 
+        {/* <Inside />  It is making app slow*/}
         <FAQ/>
         <Email/>
         <Footer/>

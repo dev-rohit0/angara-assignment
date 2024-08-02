@@ -19,7 +19,7 @@ const Navbar = () => {
         </TouchableOpacity>
       </View>
       <View style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-        <TouchableOpacity onPress={() => {/* Navigation action */}}>
+        <TouchableOpacity onPress={() => {}}>
           <SvgUri
             width="140"
             height="58.38"
@@ -29,11 +29,11 @@ const Navbar = () => {
         </TouchableOpacity>
       </View>
       <View style={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
-        <TouchableOpacity onPress={() => {/* Navigation action */}}>
+        <TouchableOpacity onPress={() => {}}>
           <Text><Ionicons name="person-outline" size={24} /></Text>
         </TouchableOpacity>
         <View>
-          <TouchableOpacity onPress={() => {/* Navigation action */}}>
+          <TouchableOpacity onPress={() => {}}>
             <Ionicons name="bag-outline" size={28} />
           </TouchableOpacity>
         </View>

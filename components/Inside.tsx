@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     color: '#000',
     textAlign: 'center',
     fontWeight: '200',
-    marginTop: 4, // Add some margin-top for spacing
+    marginTop: 4, 
   },
   image: {
     width: 100,
@@ -68,8 +68,8 @@ const styles = StyleSheet.create({
   heading: {
     width: '100%',
     textAlign: 'center',
-    fontWeight: 'bold', // Adjust heading font weight
-    fontSize: 20, // Adjust font size for better visibility
+    fontWeight: 'bold', 
+    fontSize: 20,
   },
   textContainerHead: {
     padding: 8,

@@ -17,7 +17,7 @@ const Email = () => {
   const handleSubmit = () => {
     if (validateEmail(email)) {
       Alert.alert("Success", "Email submitted successfully!");
-      setEmail(""); // Clear the input after submission
+      setEmail(""); 
     } else {
       Alert.alert("Error", "Please enter a valid email address.");
     }
